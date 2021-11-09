@@ -1,15 +1,15 @@
-## Project: prueba-avianca-plataforma-web
+## Project: prueba-viva-air-plataforma-web
 
 serenity-cucumber-gradle-screenplay
 Este es un proyecto donde se ejemplifica el uso del screenplay con cucumber y gradle.
 Utilizando el Framework de Serenity
 
-Las pruebas de este ejemplo se corren contra la página web de Avianca.
+Las pruebas de este ejemplo se corren contra la página web de Viva Air.
 
 Por defecto, los tests corren en Chrome.
 
 Detalles generales de la implementación
-Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (user_interface) definidas en prueba-portal-avianca.
+Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (user_interface) definidas en prueba-portal-viva-air.
 
 La estructura completa del proyecto es la siguiente:
 

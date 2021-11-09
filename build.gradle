@@ -19,13 +19,13 @@ buildscript{
     dependencies {
         classpath('net.serenity-bdd:serenity-gradle-plugin:2.5.8')
         classpath('net.serenity-bdd:serenity-single-page-report:2.5.8')
-        classpath ('gradle.plugin.com.github.sherter.google-java-format:google-java-format-gradle-plugin:0.8')
+
     }
 }
 
 apply plugin: 'java'
 apply plugin: 'idea'
-apply plugin: 'com.github.sherter.google-java-format'
+
 apply plugin: 'net.serenity-bdd.aggregator'
 
 tasks.withType(JavaCompile) {
@@ -55,6 +55,6 @@ dependencies {
     implementation 'mysql:mysql-connector-java:8.0.17'
 }
 
-compileJava.dependsOn 'googleJavaFormat'
+
 gradle.startParameter.continueOnFailure = true
 test.finalizedBy(aggregate)
